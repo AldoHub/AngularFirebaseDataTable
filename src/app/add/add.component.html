@@ -1,0 +1,7 @@
+<form [formGroup]="periodicElements" (ngSubmit)="addElement(periodicElements.value)">
+
+    <input type="text" formControlName="name" placeholder="Element name">
+    <input type="number" formControlName="weight" placeholder="Element weight">
+    <input typw="text" formControlName="symbol" placeholder="Element symbol">
+    <input type="submit" value="add element">
+</form>
